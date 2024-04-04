@@ -74,7 +74,20 @@ ul {
 }
 
 .Taskname{
-    margin: 25px 30px;
+    margin: 30px 2px 0 30px;
     font-size: 30px;
-    font-family: bold;
+    font-family: Roboto Mono;
+}
+
+
+
+/* check verdi */
+.green{
+    color: green;
+    display: inline-block;
+    border: 1rem;
+    border-color: green;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
 }
