@@ -1,14 +1,12 @@
-/* CSS RESET - vertical */
+/* CSS RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box; /* Aggiungiamo questa regola per includere il padding e il bordo nella larghezza e altezza dell'elemento */
-    max-width: 1000px; /* vertical */
-    margin: auto; /* vertical */
 }
 
 body{
-    background-color: grey;
+    background-color: rgb(240, 240, 240);
 }
 
 
@@ -20,16 +18,20 @@ body{
 }
 
 .container2{
+    max-width: 1000px; /* vertical */
+    margin: auto; /* vertical */
     display: inline-block;
     background-color: white;
     width: 100%;
     height: 740px;
+    justify-content: center;
+    align-items: center;
 }
 
 .titolo{
+    font-family: Roboto Mono, bold;
     font-size: 50px;
     color: black;
-    font-family: bold;
     display: inline-block;
     margin-bottom: 4rem;
     vertical-align: middle;
@@ -62,5 +64,5 @@ body{
     border: none;
     border-radius: 10%;
     padding: 10px;
-    margin: 10px 20px 20px 10px;
+    margin: 10px 5px 5px 10px;
 }
