@@ -80,7 +80,7 @@ ul {
 }
 
 
-
+/* -------------------------------------------------------------------- */
 /* check verdi */
 .green{
     color: green;
@@ -90,4 +90,34 @@ ul {
     border-radius: 50%;
     width: 30px;
     height: 30px;
+}
+
+/* check rossi */
+.red{
+    color: red;
+    display: inline-block;
+    border: 1rem;
+    border-color: red;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+/* -------------------------------------------------------------------- */
+
+
+/* Tutti i Tag */
+
+/* Tag Blu */
+.tagEditional{
+    font-size: 15px;
+    color: white;
+    background-color: rgb(155, 201, 255);
+    text-align: center;
+    display: inline-block;
+    border: none;
+    border-radius: 29%;
+    padding: 10px;
+    margin: 0px 0px 0px 4px;
+    width: 85px;
+    height: 35px;
 }
