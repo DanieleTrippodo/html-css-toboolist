@@ -9,6 +9,11 @@ body{
     background-color: rgb(240, 240, 240);
 }
 
+ul {
+    margin: 0 50px;
+    list-style-type: none; /* Cambia il simbolo in un quadrato */
+}
+
 
 .container{
     display: inline-block;
@@ -66,4 +71,10 @@ body{
     border-radius: 10%;
     padding: 10px;
     margin: 10px 5px 5px 10px;
+}
+
+.Taskname{
+    margin: 25px 30px;
+    font-size: 30px;
+    font-family: bold;
 }
