@@ -109,6 +109,7 @@ ul {
 
 /* Tag Blu */
 .tagEditional{
+    align-content: center;
     font-size: 15px;
     color: white;
     background-color: rgb(155, 201, 255);
@@ -119,5 +120,86 @@ ul {
     padding: 10px;
     margin: 0px 0px 0px 4px;
     width: 85px;
-    height: 35px;
+    height: 25px;
+}
+
+/* Tag Viola */
+.tagQ1{
+    align-content: center;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(121, 88, 241);
+    text-align: center;
+    display: inline-block;
+    border: none;
+    border-radius: 29%;
+    padding: 10px;
+    margin: 0px 0px 0px 4px;
+    width: 85px;
+    height: 25px;
+}
+
+/* Tag Verde */
+.tagR{
+    align-content: center;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(75, 141, 0);
+    text-align: center;
+    display: inline-block;
+    border: none;
+    border-radius: 29%;
+    padding: 10px;
+    margin: 0px 0px 0px 4px;
+    width: 85px;
+    height: 25px;
+}
+
+/* Tag Arancione */
+.tagM{
+    align-content: center;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(201, 164, 0);
+    text-align: center;
+    display: inline-block;
+    border: none;
+    border-radius: 29%;
+    padding: 10px;
+    margin: 0px 0px 0px 4px;
+    width: 85px;
+    height: 25px;
+}
+
+
+/* Tag Viola */
+.tagV{
+    align-content: center;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(225, 0, 255);
+    text-align: center;
+    display: inline-block;
+    border: none;
+    border-radius: 29%;
+    padding: 10px;
+    margin: 0px 0px 0px 4px;
+    width: 85px;
+    height: 25px;
+}
+
+/* Tag verde chiaro */
+.tagVC{
+    align-content: center;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(184, 255, 103);
+    text-align: center;
+    display: inline-block;
+    border: none;
+    border-radius: 29%;
+    padding: 10px;
+    margin: 0px 0px 0px 4px;
+    width: 85px;
+    height: 25px;
 }
