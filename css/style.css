@@ -19,7 +19,8 @@ body{
 
 .container2{
     max-width: 1000px; /* vertical */
-    margin: auto; /* vertical */
+    margin-left: 100px; /* posizionamento centrale */
+    margin-right: 100px; /* posizionamento centrale */
     display: inline-block;
     background-color: white;
     width: 100%;
