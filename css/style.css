@@ -34,6 +34,10 @@ main{
     height: 100px;
 }
 
+hr{
+    border-color: cadetblue;
+}
+
 .container2{
     max-width: 1000px; /* vertical */
     margin-left: 100px; /* posizionamento centrale */
@@ -44,6 +48,7 @@ main{
     height: 740px;
     justify-content: center;
     align-items: center;
+    border-radius: 3%;
 }
 
 .titolo{
@@ -105,26 +110,29 @@ main{
 
 
 /* -------------------------------------------------------------------- */
+
+/* regola generica */
+.circle{
+    display: inline-block;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
+    font-size: .8rem;
+    margin-right: .5rem;
+}
+
 /* check verdi */
 .green{
     color: green;
-    display: inline-block;
-    border: 1rem;
     border-color: green;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
 }
 
 /* check rossi */
 .red{
     color: red;
     display: inline-block;
-    border: 1rem;
-    border-color: red;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
 }
 /* -------------------------------------------------------------------- */
 
