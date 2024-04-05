@@ -14,6 +14,13 @@ ul {
     list-style-type: none; /* Cambia il simbolo in un quadrato */
 }
 
+
+/* spazio inferiore tra gli elementi contenuti nella lista */
+li{
+    margin-bottom: .9rem;
+    font-size: 20px;
+}
+
 /* centrare la barra del titolo */
 header{
     max-width: auto; /* grandezza massima in orizzontale */
@@ -34,8 +41,10 @@ main{
     height: 100px;
 }
 
+/* linea di separazione tra i bottoni e il contenuto della lista */
 hr{
-    border-color: cadetblue;
+    border: .4rem solid;
+    border-color: rgb(240, 240, 240);
 }
 
 .container2{
@@ -137,101 +146,63 @@ hr{
 /* -------------------------------------------------------------------- */
 
 
+
+
+
+/* -------------------------------------------------------------------- */
 /* Tutti i Tag */
 
-/* Tag Blu */
-.tagEditional{
+/* Tag generale - senza colore */
+.categoria{
     align-content: center;
     font-size: 15px;
-    color: white;
-    background-color: rgb(155, 201, 255);
     text-align: center;
     display: inline-block;
     border: none;
-    border-radius: 29%;
+    border-radius: .8rem;
     padding: 10px;
     margin: 0px 0px 0px 4px;
     width: 85px;
     height: 25px;
 }
 
+
+
+/* Tag Blu */
+.tagblu{
+    color: white;
+    background-color: rgb(155, 201, 255);
+}
+
 /* Tag Viola */
-.tagQ1{
-    align-content: center;
-    font-size: 15px;
+.tagviola{
     color: white;
     background-color: rgb(121, 88, 241);
-    text-align: center;
-    display: inline-block;
-    border: none;
-    border-radius: 29%;
-    padding: 10px;
-    margin: 0px 0px 0px 4px;
-    width: 85px;
-    height: 25px;
 }
 
 /* Tag Verde */
-.tagR{
-    align-content: center;
-    font-size: 15px;
+.tagverde{
     color: white;
     background-color: rgb(75, 141, 0);
-    text-align: center;
-    display: inline-block;
-    border: none;
-    border-radius: 29%;
-    padding: 10px;
-    margin: 0px 0px 0px 4px;
-    width: 85px;
-    height: 25px;
 }
 
 /* Tag Arancione */
-.tagM{
-    align-content: center;
-    font-size: 15px;
+.tagarancione{
     color: white;
     background-color: rgb(201, 164, 0);
-    text-align: center;
-    display: inline-block;
-    border: none;
-    border-radius: 29%;
-    padding: 10px;
-    margin: 0px 0px 0px 4px;
-    width: 85px;
-    height: 25px;
 }
 
 
-/* Tag Viola */
-.tagV{
-    align-content: center;
-    font-size: 15px;
+/* Tag Rosa */
+.tagrosa{
     color: white;
     background-color: rgb(225, 0, 255);
-    text-align: center;
-    display: inline-block;
-    border: none;
-    border-radius: 29%;
-    padding: 10px;
-    margin: 0px 0px 0px 4px;
-    width: 85px;
-    height: 25px;
+
 }
 
 /* Tag verde chiaro */
-.tagVC{
-    align-content: center;
-    font-size: 15px;
+.tagverdechiaro{
     color: white;
     background-color: rgb(184, 255, 103);
-    text-align: center;
-    display: inline-block;
-    border: none;
-    border-radius: 29%;
-    padding: 10px;
-    margin: 0px 0px 0px 4px;
-    width: 85px;
-    height: 25px;
 }
+/* -------------------------------------------------------------------- */
